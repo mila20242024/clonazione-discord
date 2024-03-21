@@ -118,3 +118,75 @@ footer {
   color: white;
   font-size: 5em;
 }
+
+@media only screen and (max-width: 425px) {
+  .study img {
+    width: 100%;
+  }
+  .finale img {
+    width: 100%;
+  }
+  .bloccobianco {
+    display: block;
+  }
+  .study,
+  .create {
+    width: 100%;
+  }
+  .coniglio {
+    display: none;
+  }
+  footer {
+    font-size: 2em;
+  }
+  hero h1 {
+    font-size: 1.5em;
+  }
+  hero p {
+    font-size: 0.7em;
+  }
+  hero {
+    text-align: start;
+    padding: 0 5%;
+    height: 380px;
+  }
+  #secondo_bottone {
+    display: none;
+  }
+  #primo_bottone {
+    margin-top: 5%;
+  }
+  button {
+    width: 80%;
+    font-size: 1em;
+    height: 30px;
+  }
+  .immaginiprincipali {
+    display: block;
+    top: auto;
+    position: unset;
+    margin-top: 20%;
+  }
+  .scarpa {
+    width: 100%;
+  }
+  .scarpa img {
+    width: 100%;
+  }
+  .create h2 {
+    font-size: 1.5em;
+  }
+  .finale h2 {
+    font-size: 2em;
+  }
+  .finale p {
+    padding: 0 5%;
+  }
+  nav {
+    padding: 20px 5%;
+    justify-content: start;
+  }
+  nav img {
+    width: 40%;
+  }
+}
