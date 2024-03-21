@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: #404eed;
+  display: flex;
+  padding: 20px 0;
+  justify-content: center;
+}
+nav img {
+  width: 15%;
+  justify-content: center;
+}
+hero {
+  background-image: url(./immagini/644fab4da9dbd93a7dfae97b_e6d57714479874c665b36c7adee76b1d.svg);
+  background-color: #404eed;
+  display: block;
+  height: 600px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+hero h1 {
+  font-family: "Anek Latin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  color: white;
+  font-size: 5em;
+  padding: 8% 0 2% 0;
+}
+hero p {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.immaginiprincipali {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 52%;
+}
+.scarpa {
+  margin-left: -15%;
+}
+.scarpa img,
+.coniglio img {
+  width: 80%;
+}
+.coniglio {
+  margin-right: -15%;
+}
+button {
+  font-family: "Poppins", sans-serif;
+  border-radius: 30px;
+  width: 20%;
+  margin: 2%;
+  height: 50px;
+  border: none;
+  font-size: 1.1em;
+}
+#primo_bottone {
+  background-color: white;
+}
+#secondo_bottone {
+  background-color: #303237;
+  color: white;
+}
+.bloccobianco {
+  display: flex;
+  color: #303237;
+  font-family: "Poppins", sans-serif;
+  padding: 6%;
+}
+.create {
+  padding: 2% 5%;
+  width: 50%;
+}
+.create h2 {
+  font-size: 2.5em;
+}
+.study {
+  width: 50%;
+  text-align: center;
+}
+.finale {
+  background-color: #f6f6f6;
+  color: #23272a;
+  text-align: center;
+}
+.finale h2 {
+  font-family: "Anek Latin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 3em;
+  padding: 8% 0 2% 0;
+}
+.finale p {
+  font-family: poppins;
+  padding: 0 20%;
+}
+.finale h3 {
+  font-family: poppins;
+  font-size: 2em;
+}
+.finale button {
+  background-color: #7289da;
+  color: white;
+}
+footer {
+  background-color: #23272a;
+  color: white;
+  font-size: 5em;
+}
